@@ -35,6 +35,7 @@ class Game(object):
     started = False
     draw_counter = 0
     players_won = 0
+    players_won_list = []
     starter = None
     mode = DEFAULT_GAMEMODE
     job = None
